@@ -15,12 +15,12 @@ const Summary = ({ subtotal }) => {
       <div className="summary-bg">
         <div className="subtotal">
           <span>Subtotal:</span>
-          <span className="amount">₹{subtotal}</span>
+          <span className="amount">${subtotal}</span>
         </div>
         <div className="offer-message">
           {subtotal < THRESHOLD ? (
             <>
-              Add ₹{THRESHOLD - subtotal} more to get a FREE {FREE_GIFT.name}!
+              Add ${THRESHOLD - subtotal} more to get a FREE {FREE_GIFT.name}!
               <div className="progress-bar">
                 <div
                   className="progress"
