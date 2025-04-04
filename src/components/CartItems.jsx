@@ -33,7 +33,7 @@ const CartItems = ({ cart, setCart }) => {
             </div>
             <div className="cart-item-center">
               <span className="item-price">
-                ₹{item.price} * {item.quantity} = ₹{totalPrice}
+                ${item.price} * {item.quantity} = ${totalPrice}
               </span>
             </div>
             <div className="cart-item-right">
@@ -50,7 +50,7 @@ const CartItems = ({ cart, setCart }) => {
           </div>
           <div className="cart-item-center">
             <span className="item-price">
-              ₹{item.price} * {item.quantity} = ₹{totalPrice}
+              ${item.price} * {item.quantity} = ${totalPrice}
             </span>
           </div>
           <div className="cart-item-right">
